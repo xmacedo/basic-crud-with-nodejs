@@ -6,7 +6,7 @@ const router = express.Router();
 
 async function sendWebhook(event, payload) {
   try {
-    await axios.post("http://localhost:5001/webhook", { event, payload });
+    await axios.post("http://localhost:3000/webhook", { event, payload });
   } catch (err) {
     console.error("Failed to send to webhook:", err.message);
   }

@@ -2,7 +2,6 @@
 
 > This project will be used to get changes and generate documentation about it.
 
-
 ## Project Structure
 ```
 project/
@@ -14,6 +13,18 @@ project/
        ├── users.js
        └── articles.js
 ```
+
+## How to run
+1. Instal projet
+```
+npm install
+```
+
+2. Run project
+```
+npm run dev
+```
+
 
 ## How to test
 
